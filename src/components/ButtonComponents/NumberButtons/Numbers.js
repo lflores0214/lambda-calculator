@@ -10,7 +10,7 @@ import { numbers } from '../../../data'
 //Import your array data to from the provided data file
 
 
-export default function Numbers(props) {
+const Numbers= (props) => {
 
   const [numberState] = useState(numbers)
   // STEP 2 - add the imported data to state
@@ -27,3 +27,4 @@ export default function Numbers(props) {
     </div>
   );
 };
+export default Numbers

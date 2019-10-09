@@ -18,10 +18,12 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
   const [displayNum, setDisplayNum] = useState(0);
 
-  function numFunction(value) {
-    setDisplayNum(displayNum => displayNum + value);
+  function numFunction(numvalue) {
+    setDisplayNum(displayNum => displayNum + numvalue);
   }
-  
+  function operatorFunction(opvalue){
+    
+  }
 
   return (
     <div className="container">
