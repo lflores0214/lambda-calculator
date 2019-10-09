@@ -21,7 +21,7 @@ export default function Numbers(props) {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
   {numberState.map ((numbers, index )=> (
-    <NumberButton displayNums={props.displayNums}key={index} numbers={numbers} />
+    <NumberButton displayNums={props.numFunction} key={index} numbers={numbers} />
   ))}
        
     </div>
